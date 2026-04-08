@@ -304,17 +304,27 @@ const Home = () => {
             </div>
           </div>
 
-          <div style={{ marginTop: '40px', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0,0,0,0.08)' }}>
+          <div style={{ marginTop: '40px', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0,0,0,0.08)', background: '#f8f9fa' }}>
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.2386348425175!2d128.4172404764953!3d36.10006717245362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e31718870195%3A0x6b47c61c33c30177!2z7ZuE7ZWc7J2Y7JuQIOq1rOuvuOydkA!5e0!3m2!1sko!2skr!4v1712571243123!5m2!1sko!2skr" 
+              src="https://maps.google.com/maps?q=경북%20구미시%20인동가산로%209-3%20후한의원&t=&z=17&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="450" 
               style={{ border: 0 }} 
               allowFullScreen={true} 
               loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
               title="후한의원 구미점 지도"
             ></iframe>
+            <div style={{ padding: '16px', textAlign: 'center', background: 'white', borderTop: '1px solid #eee' }}>
+              <a 
+                href="https://maps.google.com/maps?q=경북%20구미시%20인동가산로%209-3%20후한의원" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                style={{ color: '#1a4d2e', fontWeight: 'bold', textDecoration: 'none', fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
+              >
+                <MapPin size={18} />
+                구글 지도에서 크게 보기
+              </a>
+            </div>
           </div>
         </div>
       </section>
