@@ -303,6 +303,19 @@ const Home = () => {
               <p style={{opacity: 0.8, fontSize: '14px'}}>카카오톡 ID: hoogumi</p>
             </div>
           </div>
+
+          <div style={{ marginTop: '40px', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 20px rgba(0,0,0,0.08)' }}>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.225577610486!2d128.4194098765239!3d36.10014067245366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e31718870195%3A0x6b47c61c33c30177!2z7ZuE7ZWc7J2Y7JuQIOq1rOuvuOydkA!5e0!3m2!1sko!2skr!4v1712571243123!5m2!1sko!2skr" 
+              width="100%" 
+              height="450" 
+              style={{ border: 0 }} 
+              allowFullScreen={true} 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="후한의원 구미점 지도"
+            ></iframe>
+          </div>
         </div>
       </section>
 
