@@ -88,7 +88,7 @@ const Home = () => {
 
       <section className="hero">
         <div className="container fade-up">
-          <h1 className="serif-font">업데이트 테스트 중입니다</h1>
+          <h1 className="serif-font">진심을 담은 진료, 후한의원</h1>
           <p>
             서울대 출신 이언호 원장이 직접 진료합니다.<br />
             다이어트, 피부, 교통사고 후유증까지<br />
