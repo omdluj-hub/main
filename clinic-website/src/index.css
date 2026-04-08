@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1a4d2e;
+  --secondary: #d4af37;
+}
+
+body {
+  margin: 0;
+  font-family: 'Pretendard', sans-serif;
+}
